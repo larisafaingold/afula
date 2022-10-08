@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "afula"
+version = "0.1.0"
+description = ""
+authors = ["Liora Milbaum <liora@lmb.co.il>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python_gitlab = "3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
